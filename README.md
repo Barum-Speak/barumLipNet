@@ -1,5 +1,4 @@
 # barumLipNet
-
 ### - 추진 배경 및 목적
 
 ### - 작품 소개
@@ -24,6 +23,7 @@
 - **Language** : Python
 - **Hardware** : Web Camera, Desktop(NVIDIA GeForce GTX 1070)
 
+---
 
 # 개발환경 설정
 - Ubuntu 20.04.2 LTS(GNU/Linux 5.11.0-34-generic x86_64)
@@ -37,6 +37,7 @@
 - dlib 19.22.0
 - ffmpeg 4.2.4-1
 
+---
 
 # 학습 코드
 ### - clone repository
@@ -67,6 +68,8 @@ align 작성은 각 글자에 해당하는 frame을 적어준다.
 ```
 python train.py s{i}
 ```
+
+---
 
 # 예측 코드
 ### - Predict
