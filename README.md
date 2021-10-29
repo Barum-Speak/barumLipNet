@@ -1,4 +1,4 @@
-## barumLipNet
+# barumLipNet
 ### - 추진 배경 및 목적
 
 ### - 작품 소개
@@ -8,7 +8,7 @@
  <a href="https://github.com/barumSpeak/barumSpeakWeb">barumSpeakWeb</a>
 
 ### - 시스템 구조
-![644F45C0-F19C-46F8-8718-6E0B2EBE05E4_1_201_a](https://user-images.githubusercontent.com/67499154/139375404-49c2ac57-e6ad-416e-b6ca-ce985098ccb7.jpeg)
+![KakaoTalk_20211029_135507103](https://user-images.githubusercontent.com/67499154/139378113-8ba4fa71-e1e4-4444-9f44-5d2b456625ea.jpg)
 
 ### - 기대효과
 * 영어 발음을 조금 더 원어민에 가깝게 발음할 수 있도록 도움을 줄 수 있을 것을 기대
