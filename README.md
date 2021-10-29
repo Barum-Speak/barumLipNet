@@ -47,15 +47,15 @@ training/overlapped_speakers/s{i}/datasets 와<br>
 training/overlapped_speakers/datasets에 symbolic link를 건다.
 
 ### - prepare dataset for training
-필요한 준비물은 다음과 같다.<br>
+필요한 준비물은 다음과 같다.
 1. 360 * 288 크기, 초당 25 frame의 동영상을 준비한다.
 2. 각 동영상에 해당하는 align 파일을 만든다.
 3. grid.txt에 학습시키는 모든 align 문장이 들어있다.
 
 ### - align
-align은 각 동영상에 대한 정답파일이다.
-따라서, 동영상 1개당 1개의 align 파일이 존재해야 한다.
-align 작성은 각 글자에 해당하는 frame을 적어준다.
+align은 각 동영상에 대한 정답 파일이다.<br>
+따라서, 동영상 1개당 1개의 align 파일이 존재해야 한다.<br>
+align 작성은 각 글자에 해당하는 frame을 적어준다.<br>
 (sil : 묵음, sp : 공백을 의미)
 
 ![KakaoTalk_20211029_133643595](https://user-images.githubusercontent.com/67499154/139376519-7a468f99-0eb3-4fcc-9201-6e07cb2ddad8.jpg)
