@@ -1,4 +1,4 @@
-# barumLipNet
+## barumLipNet
 ### - 추진 배경 및 목적
 
 ### - 작품 소개
