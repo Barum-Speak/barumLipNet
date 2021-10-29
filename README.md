@@ -42,12 +42,12 @@ git clone https://github.com/barumSpeak/barumLipNet.git
 ```
 
 ### - directory structure
-바탕화면에 align 폴더를 만든다. 그리고 각각 
-training/overlapped_speakers/s{i}/datasets 와 
+바탕화면에 align 폴더를 만든다. 그리고 각각<br> 
+training/overlapped_speakers/s{i}/datasets 와<br>
 training/overlapped_speakers/datasets에 symbolic link를 건다.
 
 ### - prepare dataset for training
-필요한 준비물은 다음과 같다.
+필요한 준비물은 다음과 같다.<br>
 1. 360 * 288 크기, 초당 25 frame의 동영상을 준비한다.
 2. 각 동영상에 해당하는 align 파일을 만든다.
 3. grid.txt에 학습시키는 모든 align 문장이 들어있다.
