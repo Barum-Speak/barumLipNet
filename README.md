@@ -10,8 +10,6 @@
 ### - 시스템 구조
 ![644F45C0-F19C-46F8-8718-6E0B2EBE05E4_1_201_a](https://user-images.githubusercontent.com/67499154/139375404-49c2ac57-e6ad-416e-b6ca-ce985098ccb7.jpeg)
 
-### - 예시 영상
-
 ### - 기대효과
 * 영어 발음을 조금 더 원어민에 가깝게 발음할 수 있도록 도움을 줄 수 있을 것을 기대
 * 더 많은 데이터를 이용하여 학습할 수 있는 문장을 늘림에 따라 서비스의 확대 기대
@@ -24,7 +22,6 @@
 - **Hardware** : Web Camera, Desktop(NVIDIA GeForce GTX 1070)
 
 ---
-
 # 개발환경 설정
 - Ubuntu 20.04.2 LTS(GNU/Linux 5.11.0-34-generic x86_64)
 - CUDA V10.0.130
@@ -38,7 +35,6 @@
 - ffmpeg 4.2.4-1
 
 ---
-
 # 학습 코드
 ### - clone repository
 ```
@@ -61,6 +57,7 @@ align은 각 동영상에 대한 정답파일이다.
 따라서, 동영상 1개당 1개의 align 파일이 존재해야 한다.
 align 작성은 각 글자에 해당하는 frame을 적어준다.
 (sil : 묵음, sp : 공백을 의미)
+
 ![KakaoTalk_20211029_133643595](https://user-images.githubusercontent.com/67499154/139376519-7a468f99-0eb3-4fcc-9201-6e07cb2ddad8.jpg)
 
 ### - Train
@@ -70,7 +67,6 @@ python train.py s{i}
 ```
 
 ---
-
 # 예측 코드
 ### - Predict
 학습으로 생성된 가중치 파일과 예측할 동영상을 지정해준다.
