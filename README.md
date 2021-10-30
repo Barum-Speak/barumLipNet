@@ -41,6 +41,12 @@
 git clone https://github.com/barumSpeak/barumLipNet.git
 ```
 
+### - install package
+```
+cd LipNet/
+pip install -e .
+```
+
 ### - directory structure
 바탕화면에 align 폴더를 만든다. 그리고 각각<br> 
 training/overlapped_speakers/s{i}/datasets 와<br>
